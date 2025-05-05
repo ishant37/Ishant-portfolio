@@ -111,7 +111,7 @@ const CertificatesSection = () => {
     </p>
   </div>
   
-  <div className="flex grid-cols-2 gap-4 md:flex md:overflow-x-auto md:space-x-4 md:pb-5 px-6 mx-8">
+  <div className="flex grid-cols-2 gap-4 md:flex md:overflow-x-auto md:space-x-4 md:pb-5 px-6 mx-8 overflow-hidden">
   {CERTIFICATES.map((certificate) => (
     <div
       key={certificate.id}

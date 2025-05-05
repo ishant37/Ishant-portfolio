@@ -72,7 +72,7 @@ const SkillCard = ({ skill, index }) => {
   return (
     <div 
       ref={ref}
-      className={`glass-card rounded-xl p-6 card-hover ${
+      className={`glass-card rounded-xl p-6 card-hover overflow-hidden ${
         isVisible 
           ? 'animate-fade-in' 
           : 'opacity-0'
