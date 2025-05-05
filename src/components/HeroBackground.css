@@ -1,0 +1,27 @@
+/* HeroBackground.css */
+.hero-background {
+  background-color: white; /* or any dark color you want */
+
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    transition: background 1s ease;
+  }
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% ;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .dark .hero-background {
+    background: linear-gradient(-45deg, #17171b, #26222c, #130a24, #0f0e0f);
+
+    background-image: none;
+  }
+  
